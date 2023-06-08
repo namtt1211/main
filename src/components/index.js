@@ -4,10 +4,4 @@ import AppFooter from './AppFooter'
 import AppHeader from './AppHeader'
 import AppSidebar from './AppSidebar'
 
-export {
-  AppBreadcrumb,
-  AppSidebar,
-  AppHeader,
-  AppContent,
-  AppFooter,
-}
+export { AppBreadcrumb, AppSidebar, AppHeader, AppContent, AppFooter }

@@ -1,11 +1,5 @@
 import React from 'react'
-import {
-  CRow,
-  CCol,
-  CCard,
-  CCardBody,
-  CCardHeader
-} from '@coreui/react'
+import { CRow, CCol, CCard, CCardBody, CCardHeader } from '@coreui/react'
 
 const Navs = () => {
   return (

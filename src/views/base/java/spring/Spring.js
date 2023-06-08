@@ -6,7 +6,7 @@ import { CopyBlock, dracula } from 'react-code-blocks'
 const language = 'javascript'
 const code = '123'
 
-const Accordion = () => {
+const Spring = () => {
   return (
     <CRow>
       <CCol xs={12}>
@@ -52,4 +52,4 @@ const Accordion = () => {
   )
 }
 
-export default Accordion
+export default Spring

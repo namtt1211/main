@@ -4,7 +4,7 @@ import Carousels from './Carousels'
 import Jumbotrons from './Jumbotrons'
 import ListGroups from './ListGroups'
 import Navbars from './Navbars'
-import Navs from './Navs'
+import Navs from './database'
 import Tabs from './Tabs'
 
 export {

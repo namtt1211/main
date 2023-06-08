@@ -1,7 +1,7 @@
 import React from 'react'
 import { CRow, CCol, CCard, CCardBody, CCardHeader } from '@coreui/react'
 
-const Navs = () => {
+const Jsp = () => {
   return (
     <CRow>
       <CCol xs={12}>
@@ -30,4 +30,4 @@ const Navs = () => {
   )
 }
 
-export default Navs
+export default Jsp

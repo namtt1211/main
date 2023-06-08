@@ -27,14 +27,40 @@ const _nav = [
     icon: <CIcon icon={cilPuzzle} customClassName="nav-icon" />,
     items: [
       {
-        component: CNavItem,
+        component: CNavGroup,
         name: 'Java',
         to: '/base/java',
+        icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
+        items: [
+          {
+            component: CNavItem,
+            name: 'Note',
+            to: '/base/java/note',
+          },
+          {
+            component: CNavItem,
+            name: 'Spring',
+            to: '/base/java/spring',
+          },
+          {
+            component: CNavItem,
+            name: 'Jsp & Jsf',
+            to: '/base/java/jsp',
+          },
+        ],
       },
       {
-        component: CNavItem,
-        name: 'Navs & Tabs',
-        to: '/base/navs',
+        component: CNavGroup,
+        name: 'Database',
+        to: '/base/database',
+        icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
+        items: [
+          {
+            component: CNavItem,
+            name: 'Oracle',
+            to: '/base/database/oracle',
+          },
+        ],
       },
     ],
   },

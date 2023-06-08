@@ -1,6 +1,6 @@
 {
   "short_name": "CoreUI-React",
-  "name": "CoreUI-React sample",
+  "name": "CoreUI-React",
   "icons": [
     {
       "src": "./assets/img/favicon.png",
@@ -8,7 +8,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://github.com/namtt1211/main/",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

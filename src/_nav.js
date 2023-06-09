@@ -66,6 +66,26 @@ const _nav = [
   },
   {
     component: CNavGroup,
+    name: 'ReactJs',
+    to: '/reactjs',
+    icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavGroup,
+        name: 'F8',
+        to: '/reactjs/F8',
+        items: [
+          {
+            component: CNavItem,
+            name: 'Hook',
+            to: '/reactjs/F8',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    component: CNavGroup,
     name: 'Pages',
     icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
     items: [

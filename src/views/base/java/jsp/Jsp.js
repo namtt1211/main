@@ -16,13 +16,6 @@ const Jsp = () => {
               overrides (for working with lists), some link padding for larger hit areas, and basic
               disabled styling.
             </p>
-            <p className="text-medium-emphasis small">
-              Classes are used throughout, so your markup can be super flexible. Use{' '}
-              <code>&lt;ul&gt;</code>s like above, <code>&lt;ol&gt;</code> if the order of your
-              items is important, or roll your own with a <code>&lt;nav&gt;</code> element. Because
-              the .nav uses display: flex, the nav links behave the same as nav items would, but
-              without the extra markup.
-            </p>
           </CCardBody>
         </CCard>
       </CCol>
